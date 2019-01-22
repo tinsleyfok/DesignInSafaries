@@ -1,3 +1,3 @@
-#Design in Safaris
+#Design in Safaries
 class website: https://tinsleyfok.github.io/DesignInSafaries/
 
