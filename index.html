@@ -3,100 +3,48 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--    <link rel="icon" type="image/gif" href="../images/logox.png" />-->
+    <link rel="icon" type="image/gif" href="image/logo.png" />
     <title>Design in Safaries </title>
-    <!--    <link href="../style.css" rel="stylesheet" />-->
+    <link href="style.css" rel="stylesheet" />
 
+    <style>
+        body{
+             background: url(image/xx.png);
+        }
+    
+    </style>
 
 </head>
-
-<style>
-    @import url("https://fonts.googleapis.com/css?family=Tinos");
-
-    body {
-        background: url(image/xx.jpg);
-        font-family: Tinos;
-        letter-spacing: 3px;
-        color: white;
-    }
-
-    .nav {
-        width: 100%;
-        text-align: center;
-        font-size: 20px;
-        padding-top: 2%;
-    }
-
-    .nav li {
-        display: inline;
-        padding-right: 6%;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
-
-    #blog-content {
-        display: none;
-        text-align: center;
-
-    }
-
-    .weekone {
-        font-size: 15px;
-        letter-spacing: 0px;
-    }
-
-    .blog:hover {
-        color: orange;
-        cursor: pointer;
-    }
-
-</style>
 
 <body>
 
     <div class="nav">
 
         <li>
-
             <a class="about">
-                About
+                ABOUT
             </a>
         </li>
-        <li>
-            <a class="blog" onclick="myFunction()">
-                Blog
-            </a>
-            <div id="blog-content">
-                <a href="blog/weekone.html" class="weekone">Anthropomorphism and Anthropodenial</a>
-            </div>
-        </li>
+    
         <li>
 
-            <a class="work">
-                Work
+            <a class="work" href="work.html">
+                WORK
             </a>
         </li>
         <li>
 
             <a class="contact">
-                Contact
+                CONTACT
             </a>
         </li>
     </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("blog-content");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
 
-    </script>
+    
+    <div class="logo">
+        <h1 class="logo-content">
+        Design in Safaris</h1></div>
+    
 </body>
 
 </html>
